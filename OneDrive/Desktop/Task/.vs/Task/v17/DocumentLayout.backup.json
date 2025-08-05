@@ -1,0 +1,267 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|c:\\users\\hival\\onedrive\\desktop\\task\\task\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|solutionrelative:task\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|c:\\users\\hival\\onedrive\\desktop\\task\\task\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|solutionrelative:task\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|c:\\users\\hival\\onedrive\\desktop\\task\\task\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|solutionrelative:task\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|c:\\users\\hival\\onedrive\\desktop\\task\\task\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|solutionrelative:task\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|c:\\users\\hival\\onedrive\\desktop\\task\\task\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|solutionrelative:task\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|c:\\users\\hival\\onedrive\\desktop\\task\\task\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|solutionrelative:task\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|c:\\users\\hival\\onedrive\\desktop\\task\\task\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|solutionrelative:task\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|c:\\users\\hival\\onedrive\\desktop\\task\\task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|solutionrelative:task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|c:\\users\\hival\\onedrive\\desktop\\task\\task\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|solutionrelative:task\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|c:\\users\\hival\\onedrive\\desktop\\task\\task\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|solutionrelative:task\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|c:\\users\\hival\\onedrive\\desktop\\task\\task\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|solutionrelative:task\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|c:\\users\\hival\\onedrive\\desktop\\task\\task\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|solutionrelative:task\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|c:\\users\\hival\\onedrive\\desktop\\task\\task\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|solutionrelative:task\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|c:\\users\\hival\\onedrive\\desktop\\task\\task\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|solutionrelative:task\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|c:\\users\\hival\\onedrive\\desktop\\task\\task\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50B87BAB-A827-4684-A8DE-3CA1079E791E}|Task\\Task.csproj|solutionrelative:task\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Task\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Task\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T11:04:47.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Task\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Task\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T10:43:27.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Task\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Task\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwDkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T10:04:42.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Task\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Task\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAIAwwEcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T09:09:14.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Program.cs",
+              "RelativeDocumentMoniker": "Task\\Program.cs",
+              "ToolTip": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Program.cs",
+              "RelativeToolTip": "Task\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T09:22:51.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "Task\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "Task\\Controllers\\MovieController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T09:51:56.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Task\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Task\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwBkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T09:32:11.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Views\\Movie\\Index.cshtml",
+              "RelativeDocumentMoniker": "Task\\Views\\Movie\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Views\\Movie\\Index.cshtml",
+              "RelativeToolTip": "Task\\Views\\Movie\\Index.cshtml",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAwwFMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T09:53:42.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Task\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Task\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T09:27:47.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Task\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Task\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T10:04:36.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Task\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Task\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T09:10:39.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Task\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Task\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T09:08:02.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Task\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Models\\User.cs",
+              "RelativeToolTip": "Task\\Models\\User.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T09:06:16.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\appsettings.json",
+              "RelativeDocumentMoniker": "Task\\appsettings.json",
+              "ToolTip": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\appsettings.json",
+              "RelativeToolTip": "Task\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-05T09:02:01.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "Task\\Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\hival\\OneDrive\\Desktop\\Task\\Task\\Models\\Movie.cs",
+              "RelativeToolTip": "Task\\Models\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T09:06:56.1Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

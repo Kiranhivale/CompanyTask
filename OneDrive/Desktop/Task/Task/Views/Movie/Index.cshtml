@@ -1,0 +1,134 @@
+﻿@{
+    ViewData["Title"] = "Movie List";
+}
+
+<h2>Movie List</h2>
+<form id="deleteForm">
+    <table id="movieTable" class="table table-bordered">
+        <thead>
+            <tr>
+                <th><input type="checkbox" id="selectAll" /></th>
+                <th>Title</th>
+                <th>Genre</th>
+                <th>Release Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <button type="button" id="btnAdd">Add Movie</button>
+    <button type="button" id="btnDeleteSelected">Delete Selected</button>
+</form>
+
+<!-- Modal for Add/Edit Movie -->
+<div id="movieModal" style="display:none;">
+    <input type="hidden" id="MovieId" />
+    <input type="text" id="Title" placeholder="Title" />
+    <input type="text" id="Genre" placeholder="Genre" />
+    <input type="date" id="ReleaseDate" />
+    <button id="saveMovie">Save</button>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            loadMovies();
+
+            function loadMovies() {
+                $.getJSON('/Movie/GetAll', function (data) {
+                    var rows = '';
+                    $.each(data, function (i, movie) {
+                        var dateOnly = new Date(movie.releaseDate).toISOString().split('T')[0];
+                        rows += '<tr>' +
+                            '<td><input type="checkbox" class="selectMovie" value="' + movie.movieId + '" /></td>' +
+                            '<td>' + movie.title + '</td>' +
+                            '<td>' + movie.genre + '</td>' +
+                            '<td>' + dateOnly + '</td>' +
+                            '<td><button type="button" onclick="editMovie(' + movie.movieId + ', \'' + movie.title + '\', \'' + movie.genre + '\', \'' + movie.releaseDate + '\')">Edit</button>' +
+                            ' <button type="button" onclick="deleteMovie(' + movie.movieId + ')">Delete</button></td>' +
+                            '</tr>';
+                    });
+                    $('#movieTable tbody').html(rows);
+                });
+            }
+
+            $('#btnAdd').click(function () {
+                $('#MovieId').val(0);
+                $('#Title').val('');
+                $('#Genre').val('');
+                $('#ReleaseDate').val('');
+                $('#movieModal').show();
+            });
+
+            $('#saveMovie').click(function () {
+                var movie = {
+                    MovieId: $('#MovieId').val(),
+                    Title: $('#Title').val(),
+                    Genre: $('#Genre').val(),
+                    ReleaseDate: $('#ReleaseDate').val()
+                };
+
+                var url = movie.MovieId == 0 ? '/Movie/Add' : '/Movie/Update';
+
+                $.post(url, movie, function () {
+                    $('#movieModal').hide();
+                    loadMovies();
+                });
+            });
+
+            window.editMovie = function (id, title, genre, releaseDate) {
+                $('#MovieId').val(id);
+                $('#Title').val(title);
+                $('#Genre').val(genre);
+                   var formattedDate = new Date(releaseDate).toISOString().split('T')[0];
+                $('#ReleaseDate').val(formattedDate);
+                $('#movieModal').show();
+            }
+
+            window.deleteMovie = function (id) {
+                if (confirm('Are you sure you want to delete this movie?')) {
+                    $.post('/Movie/Delete', { id: id }, function () {
+                        loadMovies();
+                    });
+                }
+            }
+
+            $('#selectAll').click(function () {
+                $('.selectMovie').prop('checked', this.checked);
+            });
+
+          $(document).on('click', '#btnDeleteSelected', function () {
+            var selectedIds = [];
+
+            $('input[type="checkbox"]:checked').each(function () {
+                selectedIds.push($(this).val());
+            });
+
+            if (selectedIds.length === 0) {
+                alert("Please select at least one record to delete.");
+                return;
+            }
+
+            if (!confirm("Are you sure you want to delete selected movies?")) {
+                return;
+            }
+
+            $.ajax({
+                type: 'POST',
+                url: '/Movie/DeleteMultiple', //  controller action
+                data: {
+                    movieIds: selectedIds.join(',')
+                },
+                success: function (response) {
+                    alert(response.message);
+                    location.reload();
+                },
+                error: function () {
+                    alert("An error occurred while deleting the records.");
+                }
+            });
+        });
+
+        });
+    </script>
+}
